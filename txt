@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitYourHealth</title>
+    <link rel="stylesheet" href="scripts.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="logo"><span>FitYour</span><span class="orange">Health</span></div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#webinar">Webinar</a>
+            <a class="btn" href="#contact">Contact Us</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-content">
+            <h1>Transform Your Health with Personalized Coaching</h1>
+            <p>Unlock your full potential with customized nutrition plans, dynamic workouts, and a <br>supportive community. Our expert coaches guide you every step of the way so you can <br> build a healthier, stronger, and more vibrant life.</p>
+            <button class="btn">Get Started Today</button>
+        </div>
+        <div class="image-container">
+            <img src="images/image.png" alt="Main" class="main-image">
+            <img src="images/Group 10.png" alt="Small Top" class="small-image-top">
+            <img src="images/Group 79.png" alt="Small Bottom" class="small-image-bottom">
+        </div>
+    </div>
+</header>
+    <section>
+        <div class="cont">
+            <div class="fitness">
+                <img src="images/Group 83.png" alt="Fitness Coaching">
+            </div>
+            <div class="content">
+                <h2>We Offer the Best Services</h2>
+                <p>Experience exceptional care with our premier fitness and diet coaching services. Our expert team delivers tailored programs, innovative workouts, and nutritional guidance for unmatched, lasting results every day.</p>
+                <ul>
+                    <li>✅ Personalized Nutrition Coaching</li>
+                    <li>✅ Custom Fitness Programs</li>
+                    <li>✅ Holistic Wellness & Accountability</li>
+                </ul>
+                <a href="#" class="book-btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-three">
+        <div class="header">
+            <h2>The Perfect Solution to Your Fitness</h2>
+            <p>Achieve your health goals with expert coaching, personalized plans, and sustainable <br> strategies designed just for you.</p>
+        </div>
+    
+        <div class="services">
+            <div class="service-box">
+                <img class="group" src="images/Group 94.png" alt="Nutrition Coaching">
+                <h2>Personalized Nutrition Coaching</h2>
+                <p>Say goodbye to one-size-fits-all diets. Our nutrition experts work closely with you to develop a balanced meal plan that fits your lifestyle, preferences, and goals. Enjoy delicious recipes, smart grocery lists, and sustainable habits that fuel your body for success.</p>
+                <a href="#" class="learn-more-btn">Learn More</a>
+            </div>
+    
+            <div class="service-box">
+                <img  class="group" src="images/Group 94.png" alt="Fitness Programs">
+                <h2>Custom Fitness Programs</h2>
+                <p>Whether you’re aiming to lose weight, build strength, or boost endurance, our customized workout routines are designed with your individual needs in mind. From one-on-one training sessions to virtual classes, we offer flexible options that keep you challenged.</p>
+                <a href="#" class="learn-more-btn">Learn More</a>
+            </div>
+    
+            <div class="service-box">
+                <img  class="group" src="images/Group 94.png" alt="Wellness & Accountability">
+                <h2>Holistic Wellness & Accountability</h2>
+                <p>Our approach goes beyond food and exercise. We focus on your overall well-being, including stress management, sleep optimization, and mindset coaching. Regular check-ins and progress tracking ensure you’re supported every step of the way.</p>
+                <a href="#" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="testimonials-container">
+        <h2>What Our Customers Say About Us</h2>
+    
+        <div class="testimonials-wrapper">
+            <div class="testimonial">
+                <div class="profile">
+                    <img src="images/Ellipse 12.png" alt="ChiChi">
+                    <div class="profile-details">
+                        <strong>ChiChi</strong><br>
+                        <span class="country">South Africa</span>
+                    </div>
+                </div>
+                <div class="short">
+                    <img src="images/“.png" alt="the icon image">
+                </div>
+                <p>"I finally found a program that works! The meal plans are easy to follow, and the workouts keep me motivated. I've lost 15 pounds and feel amazing!"</p>
+            </div>
+    
+            <div class="testimonial">
+                <div class="profile">
+                    <img src="images/Ellipse 13.png" alt="Queen Rita">
+                    <div class="profile-details">
+                        <strong>Queen Rita</strong><br>
+                        <span class="country">USA</span>
+                    </div>
+                </div>
+                <div class="short">
+                    <img src="images/“.png" alt="the icon image">
+                </div>
+                <p>"The personalized approach made all the difference. I have more energy, better eating habits, and a fitness routine that actually fits my lifestyle!"</p>
+            </div>
+    
+            <div class="testimonial">
+                <div class="profile">
+                    <img src="images/Ellipse 14.png" alt="Gloria Uko">
+                    <div class="profile-details">
+                        <strong>Gloria Uko</strong><br>
+                        <span class="country">Nigeria</span>
+                    </div>
+                </div>
+                <div class="short">
+                    <img src="images/“.png" alt="the icon image">
+                </div>
+                <p>"I struggled with consistency for years, but the support and guidance here changed everything. I’m stronger, healthier, and more confident than ever!"</p>
+            </div>
+    
+            <div class="testimonial">
+                <div class="profile">
+                    <img src="images/images.jpg" alt="Gloria Uko">
+                    <div class="profile-details">
+                        <strong>Gloria Uko</strong><br>
+                        <span class="country">Nigeria</span>
+                    </div>
+                </div>
+                <div class="short">
+                    <img src="images/“.png" alt="the icon image">
+                </div>
+                <p>"I’ve gained so much strength and confidence. The expert guidance and personalized support made my transformation journey so much easier and enjoyable!"</p>
+            </div>
+    
+            <div class="testimonial">
+                <div class="profile">
+                    <img src="images/proud-cheerful-smiling-successful-african-260nw-755395636.jpg" alt="Michael">
+                    <div class="profile-details">
+                        <strong>Michael</strong><br>
+                        <span class="country">UK</span>
+                    </div>
+                </div>
+                <div class="short">
+                    <img src="images/“.png" alt="the icon image">
+                </div>
+                <p>"This program is a game-changer. My fitness level has skyrocketed, and I love how flexible and sustainable the approach is!"</p>
+            </div>
+    
+            <div class="testimonial">
+                <div class="profile">
+                    <img src="images/team1 2.jpg" alt="Amara">
+                    <div class="profile-details">
+                        <strong>Amara</strong><br>
+                        <span class="country">Kenya</span>
+                    </div>
+                </div>
+                <div class="short">
+                    <img src="images/“.png" alt="the icon image">
+                </div>
+                <p>"I never thought I’d enjoy working out, but now I look forward to every session! The support and motivation keep me going every day!"</p>
+            </div>
+    
+            <div class="more-indicator"></div>
+        </div>
+    </div>
+    <div class="newsletter-container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>We recommend you to subscribe to our newsletter. Drop <br>your email below to get daily updates about us.</p>
+        
+        <!-- Replace the action URL below with the one from Mailchimp -->
+        <form action="https://your-mailchimp-url.com/subscribe" method="post" class="subscribe-form">
+            <input type="email" name="EMAIL" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    
+    <footer>
+
+        <div class="foc">
+            <div class="logo"><span>FitYour</span><span class="orange">Health</span>
+                <p>7th Avenue, Philip Ezeani <br> Road, Port Harcourt, Rivers <br> State.</p>
+            </div>
+    
+        <div class="horn">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <p>T & Cs</p>
+        </div>
+
+        <div class="horn">
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <p>Privacy Policy</p>
+        </div>
+        <div class="connect-us">
+    <h2>Connect With Us</h2>
+    <div class="social-container">
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+    
+    <!-- FontAwesome Icons -->
+   
+    
+        </div>
+
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+          </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+ .contact-container {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.contact-container h2 {
+  margin-top: 50px;
+    border: 10px;
+    border-color: #918787;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #000033;
+}
+.contact-container p {
+    color:#000033;
+    margin-bottom: 20px;
+    border-color: #ccc;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.contact-form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: darkorange;
+}
+.contact-info-container {
+    position: relative;
+    width:100%;
+    height: 437px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FFF9F0;
+    /* padding: 120px; */
+    /* border-radius: 10px; */
+    flex-wrap: wrap;
+    gap: 80px;
+}
+  .contact-box2 {
+    position: absolute;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+}
+  .contact-box2 h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #000033;
+}
+  .contact-box2 a {
+    text-decoration: none;
+    color: #000033;
+    font-weight: bold;
+}
+  .contact-box2 p {
+    margin: 10px 0;
+    color:#000033;
+    text-align: left;
+}
+  .contact-box2 i {
+    color: rgb(255, 94, 0);
+    margin-right: 8px;
+    font-size: 18px;
+}
+  .hope1{
+    margin-left: 200px;
+   width: 407px;
+    height: 223px;
+}
+  .hope2{
+    margin-right: 150px;
+   width: 407px;
+    height: 223px;
+} 

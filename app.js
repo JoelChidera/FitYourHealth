@@ -30,65 +30,68 @@ menuIcon.onclick = () =>{
 }
 
 
-function submitForm() {
-    let name = document.getElementById("name").value;
-    let number = document.getElementById("number").value;
-    let email = document.getElementById("email").value;
 
-    if (name === "" || number === "" || email === "") {
-        alert("Please fill in all fields");
-    } else {
-        alert("Form Submitted Successfully!! We Will Get Back To You Soon.");
-    }
+if (window.innerWidth <= 768) {
+    const swiper = new Swiper('.testimonial-container', {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: { el: ".swiper-pagination", clickable: true },
+    });
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.getElementById("myForm").addEventListener("submit", function(event) {
+document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
 
-    let name = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let password = document.getElementById("password").value;
-    let confirmPassword = document.getElementById("confirmPassword").value;
-    let numberInput = document.getElementById("numberInput").value;
-    let confirmNumberInput = document.getElementById("confirmNumberInput").value;
-    let errorMessage = document.getElementById("errorMessage");
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let password = document.getElementById("password").value.trim();
+    let message = document.getElementById("message").value.trim();
+    let errorMessage = document.getElementById("error-message");
 
-    // Validation
-    if (password !== confirmPassword) {
-        errorMessage.innerText = "Passwords do not match!";
+    // Dummy login credentials for validation
+    const validEmail = "user@example.com";
+    const validPassword = "password123";
+
+    if (name === "" || email === "" || password === "" || message === "") {
+        errorMessage.textContent = "Please fill out all fields!";
         return;
     }
 
-    if (numberInput !== confirmNumberInput) {
-        errorMessage.innerText = "Numbers do not match!";
+    if (email !== validEmail || password !== validPassword) {
+        errorMessage.textContent = "Incorrect email or password. Please try again!";
         return;
     }
 
-    errorMessage.innerText = "";
-    alert("Form submitted successfully!");
+    errorMessage.textContent = ""; // Clear error message if successful
+    alert("Message sent successfully!");
+    this.reset(); // Clears form fields
 });
-</script>
+
+
+document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    const email = document.getElementById("emailInput").value;
+    const formData = new FormData();
+    formData.append("EMAIL", email);
+
+    fetch("https://your-mailchimp-url.com/subscribe", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => {
+        if (response.ok) {
+            window.location.href = "success.html"; // Redirect to success page
+        } else {
+            window.location.href = "error.html"; // Redirect to error page
+        }
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        window.location.href = "error.html"; // Redirect to error page if fetch fails
+    });
+});

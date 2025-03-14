@@ -145,7 +145,7 @@ body {
     font-weight: 300;
     line-height: 25px;
     margin: 20px 0;
-    max-width: 790px;
+    max-width: 770px;
 }
 
 .image {
@@ -175,7 +175,6 @@ body {
 
 .section-two {
     width: 100%;
-    /* height: auto; */
     position: relative;
     background-color: #FFF9F0;
     display: flex;
@@ -210,7 +209,7 @@ body {
 
 .content {
     flex: 1;
-    padding-left: 240px;
+    padding-left: 100px;
 }
 
 .content h2 {
@@ -240,7 +239,6 @@ body {
     padding: 50px;
     margin: 100px auto;
     color: rgb(22, 21, 21);
-     /* width: 100%; */
 }
 
  .text h2 {
@@ -283,10 +281,11 @@ body {
 
 .section-four{
     position: relative;
-    background-color:#FFF9F0; /* Ash color */
-    padding: 90px;
+    width: 100%;
+    background-color:#FFF9F0; 
+    padding: 50px;
     border-radius: 10px;
-    margin: 70px auto;
+    margin: 50px auto;
     overflow: hidden;
 }
 
@@ -365,6 +364,12 @@ body {
     text-align: left;
 }
 
+.short {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 .testimonial .short{
     position: absolute;
     margin-left:330px;
@@ -394,76 +399,6 @@ p {
     left: 0;
 }
 
-/* .more-indicator {
-    position: absolute;
-    right: -15px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 10px;
-    height: 80%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-    border-radius: 5px;
-} */
-
-/* section-four ends */
-
-
-/* section-five begins */
-
-/* .section-five{
-    display: flex;
-    flex-direction: column;
-}
-
-.section-five h2{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 65px;
-    color: #000033;
-}
-
-.section-five .container{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;    
-}
-
-.section-five .container .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
-.section-five .container .content p{
-    font-weight: 700;
-    font-size: 29.98px;
-    line-height: 39.87px;
-    letter-spacing: 1px;
-}
-
-.section-five .container .content h2{
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    font-size: 64.95px;
-    line-height: 122.11px;
-    letter-spacing: 1px;
-    text-align: right;
-}
-
-.section-five .container .content ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-} */
-
-
-
 .section-five {
     text-align: center;
     padding: 50px 20px;
@@ -484,7 +419,7 @@ p {
     flex-wrap: wrap; /* Makes it responsive */
 }
 
-.content {
+.content2 {
     background: #fff;
     padding: 30px;
     border-radius: 12px;
@@ -495,17 +430,17 @@ p {
     transition: transform 0.3s ease;    
 }
 
-.content:hover {
+.content2:hover {
     transform: translateY(-5px);
 }
 
-.content p {
+.content2 p {
     font-size: 20px;
     font-weight: bold;
     color: #000033;
 }
 
-.content h2 {
+.content2 h2 {
     font-size: 30px;
     font-weight: bold;
     color: #000033;
@@ -514,7 +449,7 @@ p {
     justify-content: center;
 }
 
-.content h2 img {
+.content2 h2 img {
     width: 25px;
     height: auto;
     margin-right: 5px;
@@ -580,6 +515,7 @@ button:hover {
     color: #FFF;
 }
 /* section-five ends */
+
 /* section-six begins */
 
 .section-six{
@@ -650,7 +586,7 @@ button:hover {
 /* Footer section begins */
 
 .footer-container {
-    height: 300px;
+    min-height: 200px;
     background-color: #000033F2;
     color: white;
     padding: 40px 20px;
@@ -730,3 +666,121 @@ button:hover {
         margin-bottom: 30px;
     }
     /* Footer section ends */
+
+
+
+
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .header {
+            padding: 10px 3%;
+        }
+    
+        .navbar {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    
+        .navbar.active {
+            display: flex;
+        }
+    
+        #menu-icon {
+            display: block;
+            cursor: pointer;
+        }
+    
+        .section-one .main {
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+        }
+    
+        .subtitle {
+            width: 100%;
+        }
+    
+        .image {
+            width: 90%;
+            margin-top: 20px;
+        }
+    
+        .section-two {
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+        }
+    
+        .fitness img.human {
+            width: 80%;
+            margin-left: 0;
+        }
+    
+        .content {
+            padding-left: 0;
+            text-align: center;
+        }
+    
+        .section-three {
+            padding: 30px;
+            margin: 50px auto;
+        }
+    
+        .section-four {
+            padding: 30px;
+        }
+    
+        .testimonials-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .testimonial {
+            width: 90%;
+            margin: 10px 0;
+        }
+    
+        .section-five .container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .content2 {
+            width: 90%;
+        }
+    
+        .subscribe-form {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+        }
+    
+        .subscribe-form input {
+            width: 90%;
+            margin-left: 0;
+        }
+
+        .footer-container {
+            padding: 20px;
+        }
+    
+        .footer-content {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .footer-column {
+            text-align: center;
+        }
+    }
+    
